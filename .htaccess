@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Raise Intern Projects"
-AuthUserFile .htpasswd
-Require valid-user
