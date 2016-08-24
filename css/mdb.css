@@ -6395,11 +6395,19 @@ p.lead {
 }
 
 .btn-primary {
-  background: #3D454D;
+  background: #788A91;
+}
+
+.btn-slides {
+  background: #f1a326;
+}
+
+.btn-slides:hover, .btn-slides:focus {
+  background-color: #f79800 !important;
 }
 
 .btn-primary:hover, .btn-primary:focus {
-  background-color: #788A91 !important;
+  background-color: #3D454D !important;
 }
 
 .btn-primary.active {
