@@ -10,6 +10,80 @@ main {
     margin-bottom: 2.5rem;
 }
 
+#linksBar {
+	position: relative;
+	bottom: -5px;
+
+
+}
+
+#linksBar > a {
+    display: inline-block;
+    display: -moz-inline-box;
+    *display: inline; /* For IE7 */
+    zoom: 1; /* Trigger hasLayout */
+    width: 24%;
+    text-align: center;
+}
+
 .jumbotron {
     text-align: center;
+    background-color: #3D454D;
+display: block;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.title, .subtitle, .blueT {
+	display: inline;
+}
+
+.blueT {
+	color: #12d7ff;
+}
+
+h1, .h1 {
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+    font-size: 6em;
+    font-family: Roboto;
+    text-shadow: 2px 2px #111;
+      
+}
+
+h2, .h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    font-family: Roboto;
+    padding-bottom: 100px;
+    text-shadow: 2px 2px #111;
+}
+
+h3, .h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    font-family: Roboto;
 }

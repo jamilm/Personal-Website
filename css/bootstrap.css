@@ -19,14 +19,7 @@ body {
   margin: 0;
 }
 
-h1, .h1 {
-    text-align: center;
-    color: #fff;
-    margin: 300px;
-    font-size: 5em;
-    font-family: ProximaNova;
-        padding: 100px;
-}
+
 
 article,
 aside,
@@ -408,7 +401,7 @@ blockquote {
 }
 
 a {
-  color: #0275d8;
+  color: #fff;
   text-decoration: none;
 }
 
